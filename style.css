@@ -1,0 +1,40 @@
+body{
+    background: #e80e0e;
+}
+
+.container{
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    background: #15e3e3;
+    padding: 0.2rem;
+}
+
+.content{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    background: darkslategrey;
+    border-radius: 2px;
+    justify-content: center;
+    width: 100vw;
+}
+form{
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+input{
+    background: #2f2d2d;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+
